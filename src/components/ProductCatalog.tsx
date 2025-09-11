@@ -132,7 +132,7 @@ const ProductCatalog = () => {
                 
                <Button
                     onClick={() => {
-                      const phone = "5531993580175"; 
+                      const phone = "5531993798263"; 
                       const message = `Olá! Tenho interesse:\nProduto: *${product.name}*\nMedidas: *${product.sizes}*\nPode me passar mais informações?`;
                       const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
                       window.open(url, "_blank", "noopener,noreferrer");

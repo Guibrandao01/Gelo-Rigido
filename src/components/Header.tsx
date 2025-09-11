@@ -32,7 +32,7 @@ const Header = () => {
         </nav>
         
         <Button  onClick={() => {
-            const phone = "5531993580175"; 
+            const phone = "5531993798263"; 
             const message = `Olá! Desejo solicitar o orcamento !`;
             const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
             window.open(url, "_blank", "noopener,noreferrer");
