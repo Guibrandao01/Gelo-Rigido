@@ -140,11 +140,11 @@ const ProductCatalog = () => {
                   <CarouselContent>
                     {product.images.map((img, idx) => (
                       <CarouselItem key={idx}>
-                        <div className="relative overflow-hidden rounded-t-lg">
+                        <div className="relative overflow-hidden rounded-t-lg h-80">
                           <img
                             src={img}
                             alt={`${product.name} imagem ${idx + 1}`}
-                            className="w-full h-60 object-cover bg-black/5 rounded-t-lg transition-transform duration-300"
+                            className="w-full h-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
                         </div>
