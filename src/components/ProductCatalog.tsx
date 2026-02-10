@@ -63,7 +63,7 @@ const products = [
     description:
       "Não derrete como o gelo comum (não gera água), evitando bagunça ou contaminação de alimentos.",
     images: [img400ml_1, img400ml_2],
-    sizes: ["17,0cm", "10,0cm", "2,0cm"],
+    sizes: ["17,0cm", "10,0cm", "2,7cm"],
     features: ["Máxima conservação", "Fácil manuseio", "Cobertura uniforme"],
   },
   {
@@ -109,7 +109,7 @@ const products = [
     description:
       "Mantém a temperatura de forma mais estável por mais tempo que cubos de gelo tradicionais ",
     images: [img1litro_1, img1litro_2],
-    sizes: ["12,5cm", "15,5cm", "3,5cm"],
+    sizes: ["21,5cm", "15,5cm", "3,5cm"],
     features: ["Equipe altamente qualificada", "100% puro", "Controle de temperatura"],
   },
 ];
